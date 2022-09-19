@@ -92,20 +92,17 @@ The course staff has outlined several potential project ideas below. This should
 
 ### Idea 2: Financial Time Series
 
-**Project Ideas**
-
 1. (**Price Forecasting**) Every trader's dream is to directly predict price movements: do basic time series forecasting methods have any predictive ability, perhaps on certain collections of stocks? Do they work for different asset classes? A project here would apply multiple models including ARMA / ARIMA forecasting, Kalman filters, LSTM, DL methods to attempt price prediction.
 
-Additionally, a lot of empirical work in finance has uncovered peculiar behaviors of price return time series. Examples of these so-called ‘stylized facts’ include: heavy tailed return distributions, time varying (and persistent) volatility, slowly decaying autocorrelation function, and steady correlations between certain asset classes (like stocks and bonds). Perhaps a famous example is the equity risk premium (which is why the broader market has consistently positive returns). Another aspect to consider is replicating these observations using basic time series methods; do your methods for price prediction need to adapted in light of these empirical facts?
+   Additionally, a lot of empirical work in finance has uncovered peculiar behaviors of price return time series. Examples of these so-called ‘stylized facts’ include: heavy tailed return distributions, time varying (and persistent) volatility, slowly decaying autocorrelation function, and steady correlations between certain asset classes (like stocks and bonds). Perhaps a famous example is the equity risk premium (which is why the broader market has consistently positive returns). Another aspect to consider is replicating these observations using basic time series methods; do your methods for price prediction need to adapted in light of these empirical facts?
 
-Caveat: this problem is known to have very high signal-to-noise ratio and blindly applying an array of time series methods will not result in an interesting project. We recommend finding a specific hypothesis to test before choosing a project based around price forecasting.
+   Caveat: this problem is known to have very high signal-to-noise ratio and blindly applying an array of time series methods will not result in an interesting project. We recommend finding a specific hypothesis to test before choosing a project based around price forecasting.
 
 2. (**Stochastic Volatility**) Practitioners also care a lot about forecasting volatility, which is the variance of stock prices. Higher volatility is useful for financial institutions as trading during those periods can mean increased opportunities; it also provides increased liquidity to exit out of large positions. Volatility is also intimately related with option pricing. A common time series model for volatility is the GARCH family of models.
 
- A project here would learn about and present GARCH modeling (which is a topic we have not covered in class), apply it to forecasting the variance of a certain asset, or other financial time series (stock price volatility, interest rates, etc). For example, fit an ARCH and GARCH model to your selected data. How does this compare to using methods we have seen in class, including ARMA models, state space models, etc?
+   A project here would learn about and present GARCH modeling (which is a topic we have not covered in class), apply it to forecasting the variance of a certain asset, or other financial time series (stock price volatility, interest rates, etc). For example, fit an ARCH and GARCH model to your selected data. How does this compare to using methods we have seen in class, including ARMA models, state space models, etc?
 
 3. (**Pairs Trading**) A certain strategy called pairs trading tries to capitalize on short term price dispersions between assets that should behave similarly. For example, stocks in the same industry selling similar products are expected to behave similarly, statistically speaking. When the prices diverge, you place a bet that they will eventually converge again and behave similarly. There are multiple ways of quantifying similarity between time series. For example, price difference / price ratio can be modeled by a stationary, mean reverting process, such as an OU process (a type of Gaussian process). A project here could be to identify such a pairs trade, fit an OU process model to it, and test whether the difference reverts to the mean frequently. Can you forecast the next reversion time? Another related project is to identify good pairs trades by statistical tests, such as Cross correlation, Cointegration, or Granger causality. You would learn about and apply these concepts to finding such trades. How do each of these methods compare for generating good pairs trades?
-
 
 * Data dources: Google Finance, Yahoo Finance.
 
@@ -146,12 +143,10 @@ Caveat: this problem is known to have very high signal-to-noise ratio and blindl
 **Project Ideas**
 
 1. (**Flu prediction**) Can you forecast flu trends by fitting certain time series models? What additional data can you augment which could help in this task? For example, flu trends from adjacent countries, vaccination rates, internet searches, etc.
-
-One interesting baseline for comparison is the Google Flu trends project, which was the subject of a high profile failure of big data forecasting. Forecasts for the 2013 flu season were so inaccurate that Google decided to shutter the project in 2015. You can try finding this data on google datasets, or potentially attempt to recreate this using Google trends. One aspect of the project is to see how your model compares to Google’s model, and to see if there are similar limitations. Are these limitations inherent in basic time series methods? What modeling techniques or analyses would you need to use to not make these mistakes?
-
+   
+   One interesting baseline for comparison is the Google Flu trends project, which was the subject of a high profile failure of big data forecasting. Forecasts for the 2013 flu season were so inaccurate that Google decided to shutter the project in 2015. You can try finding this data on google datasets, or potentially attempt to recreate this using Google trends. One aspect of the project is to see how your model compares to Google’s model, and to see if there are similar limitations. Are these limitations inherent in basic time series methods? What modeling techniques or analyses would you need to use to not make these mistakes?
 
 2. (**COVID modeling / prediction**) How well can various time series methods forecast COVID cases?  What are the strengths and limitations of the various approaches?  Is it possible to estimate the impact of COVID restrictions on COVID cases, for example, by comparing countries where one imposed restrictions, while the other did not.
-
 
 * Datasets:
    - https://covid19forecasthub.org/data/
