@@ -5,35 +5,41 @@ nav_order: 5
 ---
 
 ## Important Dates
-* Tues., Apr 26 at 11:59pm: Project Proposals 
-* Thurs., May 12 at 11:59pm: Project Milestone 
-* Thurs., June 2 from 9:45am - 12pm: Poster Session
-* Mon., June 6 at 11:59am (yes, am): Project Report
+* Mon., Oct. 24 at 11:59pm: Project Proposals 
+* Mon., Nov. 14 at 11:59pm: Project Milestone  
+* Weds., Dec. 7 from 1:30-3:00pm: Poster Session (Sequoia Hall Courtyard)
+* Weds., Dec. 14 at 11:59am (yes, am): Project Report [GRADES DUE DEC 20]
 
 ## Your Course Project 
 
-Your class project is an opportunity for you to explore an interesting machine learning problem in the context of a real-world data set. **We are providing some seed project ideas below.** You can pick one of these ideas, and explore the data and algorithms within and beyond what we suggest. **You can also use your own data/ideas**, but, in this case, you have to make sure you have the data available now and a nice roadmap, since a quarter is too short to explore a brand new concept.
+Your class project is an opportunity for you to explore an interesting time series problem in the context of a real-world data set. We are providing some seed project ideas below. You can pick one of these ideas and explore the data and algorithms within and beyond what we suggest. You can also use your own data/ideas, but, in this case, you have to make sure you have the data available now and a nice roadmap, since a quarter is too short to explore a brand new concept.
 
 Projects can be done by you as an individual, or in teams of two students. You can discuss your ideas and approach with the instructors, but of course the final responsibility to define and execute an interesting piece of work is yours.
 
 The final project is worth 40% of your grade, which will be split amongst four deliverables:
-- A project proposal (feedback, but no grade), due on April 26th by 11:59pm.
-- A project milestone (10% of the final grade), due on May 12th by 11:59pm.
-- A project poster presentation (10% of the final grade), on date, time and place TBD.
-- A final report (20% of the final grade), due on June 6th by 11:59am (yes, am).
+* A project proposal (feedback, but no grade), due on October 24th by 11:59pm.
+* A project milestone (10% of the final grade), due on November 14th by 11:59pm.
+* A project poster presentation (10% of the final grade), on December 7th from 1:30-3:00pm (class time) in the Sequoia Hall Courtyard.
+* A final report (20% of the final grade), due on December 14th by 11:59am (yes, am).
 
 Your project will be evaluated by three criteria:
-- Technical Depth: How technically challenging was what you did?
-- Scope: How broad was your project? How many aspects, angles, variations did you explore? 
-- Presentation: How well did you explain what you did, your results, and interpret the outcomes? Did you use the good graphs and visualizations? How clear was the writing?
+* Technical Depth: How technically challenging was what you did?
+* Scope: How broad was your project? How many aspects, angles, variations did you explore? 
+* Presentation: How well did you explain what you did, your results, and interpret the outcomes? Did you use the good graphs and visualizations? How clear was the writing?
 
 The Technical Depth and Scope are complementary criteria, e.g., if you develop a single elaborate algorithm or model on a small dataset, you may score high on depth but low on scope, while if you try many very simple methods on different datasets, your scope would be higher but the depth lower. 
+
+To give you a sense of what we're expecting:
+* A **great project** would involve constructing a model---one that synthesizes and goes beyond the various ideas from lecture and homework---tailored to your particular dataset and careful thought about how to perform your statistical analyses. It would involve a variety of analyses to check your model and justify your interpretation of the results. The presentation would clearly and concisely convey your results.
+* An **okay project** would tweak a model, algorithm, and analysis from class and apply it to a new dataset. It would involve a few different checks to show that the model is appropriate and a nice report of your findings. (A better project would consider a range of modeling or algorithmic approaches and thoroughly study which performed best, and explain why.) The presentation would get the message across.
+* A **subpar project** would simply apply existing techniques from scikit learn, RStudio, Stan tutorials, etc. to a dataset and do the bare minimum to get a result.  The models and algorithms would have been covered in lectures or homeworks with the dataset considered not requiring any new insights.  It might omit key steps of model checking and model criticism or have clear conceptual errors in the model and/or algorithm formulation. The presentation might be perfunctory.
+
  
 ## Project Proposal  
 
-You must turn in a project proposal on **April 26th by 11:59pm via Gradescope**.
+You must turn in a project proposal on **October 24th by 11:59pm via Gradescope**.
 
-**Read the list of available data sets and potential project ideas below.** If you prefer to use a different data set, we will consider your proposal, but you must have access to this data already, and present a clear proposal for what you would do with it.  
+Read the list of available data sets and potential project ideas below. If you prefer to use a different data set, we will consider your proposal, but you must have access to this data already, and present a clear proposal for what you would do with it.  
 
 **Project proposal format**: Proposals should be **one page maximum**. Include the following information:
 * Project title
@@ -46,88 +52,122 @@ You must turn in a project proposal on **April 26th by 11:59pm via Gradescope**.
  
 ## Project Milestone  
 
-A project milestone should be submitted on **May 12th by 11:59pm via Gradescope**. Your write up should be **3 pages maximum** in [NeurIPS format](https://nips.cc/Conferences/2020/PaperInformation/StyleFiles), not including references (the templates are for LaTex, if you want to use other editors/options please try to get close to the same format). You should describe the results of your first experiments here. Note that, as with any conference, the page limits are strict! Papers over the limit will not be considered.
+A project milestone should be submitted on **November 14th by 11:59pm via Gradescope**. Your write up should be **3 pages maximum** in [NeurIPS format](https://nips.cc/Conferences/2020/PaperInformation/StyleFiles), not including references (the templates are for LaTex, if you want to use other editors/options please try to get close to the same format). You should describe the results of your first experiments here. Note that, as with any conference, the page limits are strict! Papers over the limit will not be considered.
  
 ## Poster Session  
 
-We will hold a poster session on **Thursday June 2 from 9:45am - 12pm**. Each team will be given a stand to present a poster summarizing the project motivation, methodology, and results. The poster session will give you a chance to show off the hard work you put into your project, and to learn about the projects of your peers. 
+We will hold a poster session on **December 7th from 1:30-3:00pm in the Sequoia Hall Courtyard**. Each team will be given a stand to present a poster summarizing the project motivation, methodology, and results. The poster session will give you a chance to show off the hard work you put into your project, and to learn about the projects of your peers. 
 
 Here are some details on the poster format:
-- We will provide poster boards that are 30x40. 
+- We will provide poster boards that are 40” (height) x 30” (wide). 
 - Suggested ways to make your poster:
-    - Create a bunch of presentation slides (using powerpoint, beamer, etc), and print out each side on a piece of letter-sized paper. Then, put them all together on the provided poster board.
-    - If you have access to a poster printer, you are welcome to create a single huge slide and print it out on a poster printer. However, you are not expected to have access to a poster printer, and you will not receive extra "presentation points" if you use this method.
+   - Create a bunch of presentation slides (using powerpoint, beamer, etc), and print out each side on a piece of letter-sized paper. Then, put them all together on the provided poster board.
+   - If you have access to a poster printer, you are welcome to create a single huge slide and print it out on a poster printer. However, you are not expected to have access to a poster printer, and you will not receive extra "presentation points" if you use this method.
  
 ## Project Report  
 
-Your final submission will be a project report on **Monday, June 6th at 11:59am (yes, am not pm) via Gradescope**. 
+Your final submission will be a project report on **Wednesday, December 14th at 11:59am (yes, am not pm) via Gradescope**. 
+
 Your write up should be **8 pages maximum** in [NeurIPS format](https://nips.cc/Conferences/2020/PaperInformation/StyleFiles), not including references (the templates are for LaTex, if you want to use other editors/options please try to get close to the same format). You should describe the task you solved, your approach, the algorithms, the results, and the conclusions of your analysis. Note that, as with any conference, the page limits are strict! Papers over the limit will not be considered.
  
 ## Project Ideas  
 
 The course staff has outlined several potential project ideas below. This should give you a sense of the datasets available and an appropriate scope for your project. **You can either pick one of these or come up with something of your own to work on**.
 
-### Netflix Challenge
+### Idea 1: Neuroscience
 
-From 2006-2009, Netflix sponsored a competition to improve its movie recommendation system. Their system is based off of predicting what rating a user will give to a particular movie (using a 1-5 star system). In effect, what we have is a matrix where each row represents a user and each column represents a movie. Some elements are filled with past ratings, but most of them are unknown. Students can use matrix factorization or clustering methods to predict the missing values in this matrix.
-   * **Data**: [Ratings](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
-   * **Task**: Predict users' ratings of movies they haven't seen.
-   * **Background**: [netflixprize.com Wikipedia article](http://en.wikipedia.org/wiki/Netflix_Prize)
-   * **Methods**: matrix factorization/SVD, collaborative filtering, clustering, side-information
+(Neural Dynamics and Functional Connectivity) In addition to studying neural dynamics, a large research area in neuroscience is understanding how neural systems interact with each other. This is useful in understanding the pathways involved when the brain executes a complex task. Given time series data about the activity in each region of the brain, for example, EEG data or functional MRI data, how can you determine which signals in a certain system affect other signals in a different region of the brain? Granger causality is a way of inferring lagged, directed connections between regions.  Graphical models can uncover instantaneous, undirected connectivity.  A project here would be to learn about these types of methods and apply them to a neuroscience (or other proxy) dataset.
 
-### Energy forecasting
+* Datasets: https://www.ieeg.org
 
-This project is taken from a Kaggle contest run by the IEEE Power and Energy society. The goal is to predict the total energy load for a US utility across multiple zones, as well as the sum of the energy load across all these zones, based on temperature data.
-   * **Data**: [datasets](https://www.kaggle.com/competitions/global-energy-forecasting-competition-2012-load-forecasting/data)
-   * **Task**: Predict the hourly energy load across different zones of the US. (Note that the labels for the weeks meant to be predicted in the original contest are no longer available, so you should choose a random subset of other weeks to use as a test set.)
-   * **Background**: https://www.kaggle.com/competitions/global-energy-forecasting-competition-2012-load-forecasting/overview/description
-   * **Methods**: HMM, state space models, boosting (see https://robjhyndman.com/papers/kaggle-competition.pdf for another team's approach).
+* Background references:
+   - https://www.sciencedirect.com/science/article/pii/S0959438818301570?via%3Dihub
+   - https://arxiv.org/abs/2105.02675
 
-### Document Clustering
+* Papers that are examples of the project ideas above:
+   - https://arxiv.org/abs/1402.6951
+   - https://arxiv.org/pdf/1802.05842.pdf
+   - https://www.tandfonline.com/doi/full/10.1080/01621459.2018.1476238
 
-Documents taken from sources like Wikipedia or the online discussion board [Usenet](http://en.wikipedia.org/wiki/Usenet) often have word choice that reflects the topic being dicussed -- for example, the word "clustering" is much more likely to show up in a document on Computer Science than one about motorcycles. Given the collection of words in a document, it should be possible to predict what subject it is contained in. Alternatively, we might want to try to find documents similar to the one in question: if someone is reading a Wikipedia article on classification, perhaps they would also like to know that there is an article on regression.
-* **Data**: Usenet: [Original Useful Subsets](http://mlg.ucd.ie/content/view/22/) , Wikipedia: [Wikipedia dataset](http://www.cs.washington.edu/education/courses/cse599c1/13wi/datasets/smallwiki.zip)
-* **Task**: Search for articles similar to an example, or divide the dataset into clusters.
-* **Background**: KM Chapter 25
-* **Methods**: unsupervised learning, K-Means, LDA, spectral clustering
 
-### Digit Recognition
+### Idea 2: Financial Time Series
 
-Implement handwriting recognition by classifying pictures (stored as pixel data) as the appropriate digit. This project is based off a tutorial ML competition hosted on [kaggle.com](http://www.kaggle.com/)
-* **Data**: [Kaggle Dataset](http://www.kaggle.com/c/digit-recognizer/data)
-* **Task**: Classify an image of a digit
-* **Background**: [Kaggle Description MNIST database](http://www.kaggle.com/c/digit-recognizer)
-* **Methods**: multinomial logistic regression, k-nearest neighbor, svm, PCA, cross-validation.
+**Project Ideas**
 
-### Federalist Papers
+1. (**Price Forecasting**) Every trader's dream is to directly predict price movements: do basic time series forecasting methods have any predictive ability, perhaps on certain collections of stocks? Do they work for different asset classes? A project here would apply multiple models including ARMA / ARIMA forecasting, Kalman filters, LSTM, DL methods to attempt price prediction.
 
-This task involves the famous disputed federalist papers. Some of the papers we know who wrote them and others we do not. The task involves converting the text into a "bag of words" (see attached for more info) feature vector and then attempting to classify the remaining essays as Hamilton or Madison. Students can use cross validation to test predictive power on known essays. This project involves mining text, which may be a challenging component, but it shows a very cool connection between machine learning and history.
-* **Data**: [Project Gutenberg](http://www.gutenberg.org/cache/epub/1404/pg1404.txt)
-* **Task**: Classify disputed papers as Hamilton or Madison
-* **Background**: [Background](https://courses.cs.washington.edu/courses/cse446/17wi/federalist.pdf)
-* **Methods**: logistic regression, decision trees, PCA, cross-validation
+Additionally, a lot of empirical work in finance has uncovered peculiar behaviors of price return time series. Examples of these so-called ‘stylized facts’ include: heavy tailed return distributions, time varying (and persistent) volatility, slowly decaying autocorrelation function, and steady correlations between certain asset classes (like stocks and bonds). Perhaps a famous example is the equity risk premium (which is why the broader market has consistently positive returns). Another aspect to consider is replicating these observations using basic time series methods; do your methods for price prediction need to adapted in light of these empirical facts?
 
-### Job Salary Prediction
+Caveat: this problem is known to have very high signal-to-noise ratio and blindly applying an array of time series methods will not result in an interesting project. We recommend finding a specific hypothesis to test before choosing a project based around price forecasting.
 
-This is another task taken from a Kaggle competition. Given an advertisement for a job opening, the goal is to predict the starting salary for the job being posted. Much of the data about the ads is unstructured text (like the ad content itself), but some structured data is given as well. A tree of the geographic relationships between the job locations is also provided. 
-* **Data**: [Kaggle Dataset](https://www.kaggle.com/c/job-salary-prediction/data)
-* **Task**: Predict a salary from a job posting
-* **Background**: [Kaggle Description](https://www.kaggle.com/c/job-salary-prediction)
-* **Methods**: regression, dimensionality reduction, neural networks
+2. (**Stochastic Volatility**) Practitioners also care a lot about forecasting volatility, which is the variance of stock prices. Higher volatility is useful for financial institutions as trading during those periods can mean increased opportunities; it also provides increased liquidity to exit out of large positions. Volatility is also intimately related with option pricing. A common time series model for volatility is the GARCH family of models.
 
-### Eigenfaces
+ A project here would learn about and present GARCH modeling (which is a topic we have not covered in class), apply it to forecasting the variance of a certain asset, or other financial time series (stock price volatility, interest rates, etc). For example, fit an ARCH and GARCH model to your selected data. How does this compare to using methods we have seen in class, including ARMA models, state space models, etc?
 
-The goal of this task is to learn how to recognize faces. We have a set of pictures of 20 people in various directions and expressions, some of which have sunglasses. One major problem with image data is that our input features are individual pixels, which are high-dimensional but not terribly meaningful in isolation. Using PCA, we can decompose our images into eigenvectors, which are linear combinations of pixels (nicknamed "eigenfaces"). Students can explore different classification tasks, from determining the presence of sunglasses to identifying individuals.
-* **Data**: [Faces Directory](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-8/faceimages/faces/)
-* **Task**: Classify images of faces
-* **Background**: [.PGM format specification](http://netpbm.sourceforge.net/doc/pgm.html)
-* **Methods**: dimensionality reduction, PCA, SVM, neural networks
+3. (**Pairs Trading**) A certain strategy called pairs trading tries to capitalize on short term price dispersions between assets that should behave similarly. For example, stocks in the same industry selling similar products are expected to behave similarly, statistically speaking. When the prices diverge, you place a bet that they will eventually converge again and behave similarly. There are multiple ways of quantifying similarity between time series. For example, price difference / price ratio can be modeled by a stationary, mean reverting process, such as an OU process (a type of Gaussian process). A project here could be to identify such a pairs trade, fit an OU process model to it, and test whether the difference reverts to the mean frequently. Can you forecast the next reversion time? Another related project is to identify good pairs trades by statistical tests, such as Cross correlation, Cointegration, or Granger causality. You would learn about and apply these concepts to finding such trades. How do each of these methods compare for generating good pairs trades?
 
-### Human activity recognition
 
-Human activity recognition is the problem of classifying sequences of accelerometer data recorded by smart phones into known well-defined movements. It has numerous applications in healthcare as an assistive technology when ensemble with other technologies like IoT. The dataset is collected from 30 subjects, performing different activities with a smartphone to their waists. The data is recorded with the help of sensors (accelerometer and Gyroscope) in that smartphone. The goal is to classify sequences of sensor data into the human activities such as walking, walking upstairs, walking downstairs, sitting, standing and laying.
+* Data dources: Google Finance, Yahoo Finance.
 
-* **Data**: [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-* **Task**: Time series multi-class classification task
-* **Background**: [Related paper](https://www.ijrte.org/wp-content/uploads/papers/v8i1/A1385058119.pdf)
-* **Method**: decision trees, SVM, recurrent neural network with LSTM
+* References:
+   - For price prediction:
+      - https://thecleverprogrammer.com/2020/11/14/stock-price-prediction-using-machine-learning/
+      - https://thecleverprogrammer.com/2020/08/09/stock-price-prediction-with-facebook-prophet-model/
+      - A simple google search for ‘stylized facts’ will give several references.
+   - For GARCH modeling:
+      - See ch. 5 of textbook "Statistics and Data Analysis for Financial Engineering: With R Examples, Ruppert and Matteson". 
+      - For a survey of GARCH usage in finance and econometrics, see "Garch 101: The use of ARCH/GARCH Models in Applied Econometrics, Engle 2001".
+   - For pairs trading, the below articles provide an implementation overview of the strategy. There are also academic papers linked within these sources.
+      - https://quantpedia.com/strategies/pairs-trading-with-stocks/
+      - https://hudsonthames.org/an-introduction-to-cointegration/
+      - https://hudsonthames.org/optimal-stopping-in-pairs-trading-ornstein-uhlenbeck-model/
+
+
+### Idea 3: Environmental Data
+
+**Project Ideas**
+
+1. (**Air Quality Index data**)  The Air Quality Index is a measure that is important not only in California but in other large metropolitan areas with high smog rates. It’s important to forecast the air quality index in a specific location, say Santa Clara county, so that at-risk populations can prepare. Can you use the time series models we studied in class to forecast AQI? How would you incorporate the spatio temporal aspect of the data? Using AQI data in adjacent locations might help in time series forecasting; how would you incorporate this in your model? Can you use other information such as wildfire data or weather data to help forecast AQI?
+
+2. (**Global Temperature Forecasting**) The IPCC released an unequivocal 2021 report on the human impacts on global warming: there is little doubt that the past century of unprecedented warming  has been a result of human activity. Using historical temperature data, can basic time series methods quantify how unusual the past century of warming has been? Another aspect of the project is to forecast temperatures beyond the current year; can these be improved using auxiliary data such as human industrial activity, carbon emissions, or certain weather patterns like El Nino? How do your methods compare to the estimates given in the IPCC report; do they improve those predictions in any way? 
+
+
+* Data sources:
+   - https://www.epa.gov/outdoor-air-quality-data
+   - https://climatedataguide.ucar.edu/climate-data/global-temperature-data-sets-overview-comparison-table
+
+* References:
+   - Intelligent modeling strategies for forecasting air quality time series: A review, Liu et al. 2021
+   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6164777/
+
+
+### Idea 4: Epidemiology
+
+**Project Ideas**
+
+1. (**Flu prediction**) Can you forecast flu trends by fitting certain time series models? What additional data can you augment which could help in this task? For example, flu trends from adjacent countries, vaccination rates, internet searches, etc.
+
+One interesting baseline for comparison is the Google Flu trends project, which was the subject of a high profile failure of big data forecasting. Forecasts for the 2013 flu season were so inaccurate that Google decided to shutter the project in 2015. You can try finding this data on google datasets, or potentially attempt to recreate this using Google trends. One aspect of the project is to see how your model compares to Google’s model, and to see if there are similar limitations. Are these limitations inherent in basic time series methods? What modeling techniques or analyses would you need to use to not make these mistakes?
+
+
+2. (**COVID modeling / prediction**) How well can various time series methods forecast COVID cases?  What are the strengths and limitations of the various approaches?  Is it possible to estimate the impact of COVID restrictions on COVID cases, for example, by comparing countries where one imposed restrictions, while the other did not.
+
+
+* Datasets:
+   - https://covid19forecasthub.org/data/
+   - https://predict.cdc.gov/
+   - https://covidtracking.com/analysis-updates/federal-covid-data-101-how-to-find-data
+   - https://www.cdc.gov/flu/weekly/usmap.htm
+
+* References:
+   - Reappraising the utility of Google Flu Trends, Sasikiran Kandula, Jeffrey Shaman
+   - Bayesian Nonparametric Covariance Regression, Emily Fox, David Dunson
+
+* Covid time series papers / projects:
+   - https://towardsdatascience.com/predicting-number-of-covid19-deaths-using-time-series-analysis-arima-model-4ad92c48b3ae
+   - https://www.medrxiv.org/content/10.1101/2021.04.24.21255827v1
+   - System for Forecasting COVID-19 Cases Using Time-Series ...https://www.mdpi.com › pdf
+   - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244173
+   - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245414
+   - https://www.sciencedirect.com/science/article/pii/S1477893920302210
+   - … (many, many, many such papers.  Above not thoroughly vetted)
