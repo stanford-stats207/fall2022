@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: STATS 207/307
-tagline: STATS 207/307
+tagline: STATS 207/307 - Intro to Time Series Analysis
 description: 
 author: Emily Fox
 baseurl: '/fall2022' # the subpath of your site, e.g. /blog
