@@ -78,5 +78,5 @@ From experience, eager students with a strong quantitative background are able t
 - Final Project (40%)
 
 **Textbooks**:
-
-**Other references**:
+  1. 
+  2. "[New Introduction to Multiple Time Series Analysis](https://link.springer.com/book/10.1007/978-3-540-27752-1)" by Helmut Lütkepohl
