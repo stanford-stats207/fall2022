@@ -20,6 +20,6 @@ Nov 9
     3. **PML2** 16.3.3-16.3.4, 23, 31.5
   * Optional Reading: 
     1. [Deep AR](https://www.sciencedirect.com/science/article/pii/S0169207019301888)
-    2. [N-BEATS]](https://arxiv.org/pdf/1905.10437.pdf)
+    2. [N-BEATS](https://arxiv.org/pdf/1905.10437.pdf)
     3. [Transformers for time series forecasting](https://arxiv.org/pdf/1907.00235.pdf)
     4. [More on attention for those interested](https://towardsdatascience.com/attn-illustrated-attention-5ec4ad276ee3)
