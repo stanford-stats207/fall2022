@@ -41,7 +41,7 @@ The first half of the course covers traditional statistical time series concepts
 
 **When**: Class is Mondays and Wednesdays 1:30-2:50pm PST.
 
-**Where**: Class will be in person at 60-109.
+**Where**: Class will be in person at McCullough Building, Rm 115.
 
 **Links**:
 - [Ed]():
@@ -78,5 +78,5 @@ From experience, eager students with a strong quantitative background are able t
 - Final Project (40%)
 
 **Textbooks**:
-  1. 
+  1. "Time Series Analysis and Its Application" by Schumway & Stoffer
   2. "[New Introduction to Multiple Time Series Analysis](https://link.springer.com/book/10.1007/978-3-540-27752-1)" by Helmut Lütkepohl

@@ -16,7 +16,7 @@ nav_order: 4
 
 ## Homework Assignments
 
-- Homework 0 (basics), due 9/28
+- Homework 0 (basics), due 9/29
 - Homework 1 (stationarity, ACF, data wrangling), due 10/12
 - Homework 2 (ARMA models, forecasting, estimation), due 10/26
 - Homework 3 (VARMA/SSMs, filtering/smoothing, HMMs, estimation of SSMs), due 11/9 
