@@ -4,6 +4,6 @@ role: Teaching Assistant
 email: yujinj@stanford.edu
 #website: 
 photo: yujin.jpeg
-office-hours: 
+office-hours: Monday 10 - 12pm
 index : 2
 ---
